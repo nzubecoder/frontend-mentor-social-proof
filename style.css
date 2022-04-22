@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.bg-pattern{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.texas{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.test{
+    font-size: 1rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f2f8;
+    padding: .7rem 1.5rem;
+    margin-bottom: .8rem;
+    font-size: .7rem;
+    align-items: center;
+    border-radius: 10px;
+}
+.mother-rating{
+    margin-right: 3rem;
+}
+.mother-div-2nd{
+    margin-left: 1rem;
+}
+.mother-div-3rd{
+    margin-left: 2rem;
+}
+.bottom-pattern{
+    margin-top: 50px;
+    display: flex;
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+}
+.profile img {
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 1rem;
+}
+.stop{
+    background-color: #511f50;
+    margin-right: 1rem;
+    padding: 20px 15px;
+    border-radius: 8px;
+    align-items: center;
+    width: 300px;
+    height: 180px;
+}
+.bottom-profile{
+    display: flex;
+    align-items: center;
+}
+.profile-class h3{
+    font-size: .7rem;
+    color: white;
+}
+.profile-class h5{
+    color: hsl(303, 10%, 53%);
+}
+.tets{
+    color: hsl(300, 24%, 96%);
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.1rem;
+}
+.bottom-ratings{
+    margin-top: 1rem;
+}
+.bottom-ratings-3rd{
+    margin-top: 2rem;
+}
+/*media query */
+@media (max-width: 375px) {
+    .bg-pattern{
+        display: inline;
+    }
+    .texas{
+        font-size: 2rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .test{
+        font-size: 1rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .mother-div-2nd{
+        margin-left: 0;
+    }
+    .mother-div-3rd{
+        margin-left: 0;
+    }
+    .mother-rating img {
+        margin-right: 0;
+    }
+    .mother-test{
+        justify-content: center;
+    }
+    .bottom-pattern{
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .row{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+}
